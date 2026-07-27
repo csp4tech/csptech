@@ -120,6 +120,62 @@ export const PROCESS = [
   { step: "05", title: "Support", desc: "Ongoing tuning as your process changes — we stay on as the implementation partner of record." }
 ];
 
+// Zoho CRM — Real Estate edition: feature grid on crm.html
+export const CRM_REAL_ESTATE = [
+  {
+    title: "Property & Land Pipeline",
+    desc: "Every listing tracked as a deal stage, from enquiry to signed sale — across both Property and Land modules."
+  },
+  {
+    title: "Deal ↔ Property Sync",
+    desc: "Property status updates automatically when a linked deal moves stage, so listings never go stale."
+  },
+  {
+    title: "Site Visit Scheduling",
+    desc: "Book, reschedule and remind clients and agents about site visits directly from the deal record."
+  },
+  {
+    title: "Broker & Agent Commission",
+    desc: "Commission splits calculated and tracked per deal, ready to hand off to Books at close."
+  },
+  {
+    title: "Lease & Renewal Reminders",
+    desc: "Automated alerts ahead of lease expiry so renewals get handled before a tenant walks."
+  },
+  {
+    title: "Buyer Requirement Matching",
+    desc: "Incoming buyer requirements matched automatically against live inventory by budget, type and location."
+  }
+];
+
+// Zoho CRM — Manufacturing edition: feature grid on crm.html
+export const CRM_MANUFACTURING = [
+  {
+    title: "Quote-to-Order Pipeline",
+    desc: "RFQs tracked from first enquiry through quotation, purchase order and delivery in one pipeline."
+  },
+  {
+    title: "Vendor & Supplier Records",
+    desc: "Supplier pricing, lead times and performance history attached directly to the deals that depend on them."
+  },
+  {
+    title: "Production Order Tracking",
+    desc: "Order status visible against production stage, so sales can answer 'where's my order' without asking the floor."
+  },
+  {
+    title: "Multi-branch Inventory Sync",
+    desc: "Stock levels shared across branches and synced with Books, so quotes reflect what's actually available."
+  },
+  {
+    title: "Service & Warranty Tickets",
+    desc: "Post-sale service requests linked back to the original order and equipment record."
+  },
+  {
+    title: "Dealer & Distributor Portal",
+    desc: "A branded portal for dealers to place orders and track fulfilment without emailing your sales team."
+  }
+];
+
 // Company facts used in the trust strip.
 export const STATS = [
   { value: "10+", label: "Zoho products deployed" },

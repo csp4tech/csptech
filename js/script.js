@@ -32,6 +32,7 @@ function renderProducts() {
         <span class="from">from <strong>$${p.from.toLocaleString()}</strong></span>
         <span class="add-flag">Add to stack</span>
       </div>
+      ${p.id === "crm" ? `<a href="crm.html" class="card-link">View real estate &amp; manufacturing editions →</a>` : ""}
     </article>
   `).join("");
 
@@ -40,6 +41,11 @@ function renderProducts() {
     card.addEventListener("keydown", e => {
       if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggleCard(card); }
     });
+  });
+
+  // prevent the "view editions" link from also toggling the stack card
+  el.querySelectorAll(".card-link").forEach(link => {
+    link.addEventListener("click", e => e.stopPropagation());
   });
 }
 

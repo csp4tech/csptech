@@ -1,0 +1,19 @@
+/* Scroll-scrubbing animation section.
+   Scoped to .solar-scroll-section only — does not touch global html/body
+   so it can drop into any page without overriding the site's background. */
+
+.solar-scroll-section {
+  position: relative;
+  height: 600vh; /* scroll distance to scrub through — tune to taste */
+  background: #000;
+}
+
+#solarCanvas {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+}
